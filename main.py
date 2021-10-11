@@ -20,7 +20,7 @@ bot = commands.Bot(
 for i in range(len(cogs)):
   cogs[i].setup(bot)
 
-bot.author_id = 357337245318905856  # Your Discord ID
+bot.author_id = 357337245318905856  # Discord ID, changed for privacy reasons
 
 @bot.event 
 async def on_ready():  # When the bot is ready:
@@ -30,4 +30,5 @@ async def on_ready():  # When the bot is ready:
 
 
 #runs bot
+#token changed for privacy reasons
 bot.run("ODkyODU0MDc4MDE3Nzg5OTgz.YVS9KA.0prwBOEyJYK_aehGohAOV33gVqs") 
